@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+body {
+	font-family: arial;
+}
+
+p {
+	font-size: 0.8em;
+}
+.myForm {
+	padding: 15px;
+}
