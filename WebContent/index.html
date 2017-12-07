@@ -17,13 +17,17 @@
 	<div class="jsval">
 		<h4>Form Example</h4>
 		<p>Javascript also can be used to validate a form input. You can provide your validation logic in your js script</p>
+		<p>The Form below will Reject Number &amp special char from input, it will only accept alphabet as an input and cannot be empty</p>
 		<div class="myForm">
-			<form id="form1">
+			<form id="form1" action="#" onsubmit="test()">
 				<h5>My Sample Form</h5>
+				<div class="error" style="display:none;"></div>
 				<label id="txtFirst">First Name:</label>
 				<input type="text" id="txt1" maxlength="30" width="15"/><br/>
 				<label id="txtLast">Last Name:</label>
-				<input type="text" id="txt1" maxlength="30" width="15"/>
+				<input type="text" id="txt2" maxlength="30" width="15"/><br/>
+				<label id="txtEmail">Email :</label>
+				<input type="email"/><br/>
 				<input type="submit" value="Submit" id="btnSubmit"/>
 			</form>
 		</div>
